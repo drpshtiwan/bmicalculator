@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:reboot/config/Constants.dart';
+import 'package:bmicalculator/config/Constants.dart';
 
 class ResultScreen extends StatefulWidget {
 
@@ -14,7 +14,6 @@ class ResultScreen extends StatefulWidget {
 }
 
 class _ResultScreenState extends State<ResultScreen> {
-
 
   @override
   Widget build(BuildContext context) {

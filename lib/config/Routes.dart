@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:reboot/Screens/HomeScreen.dart';
-import 'package:reboot/Screens/ResultScreen.dart';
+import 'package:bmicalculator/Screens/HomeScreen.dart';
+import 'package:bmicalculator/Screens/ResultScreen.dart';
 
 class Routes
 {

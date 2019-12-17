@@ -2,12 +2,11 @@ import "package:flutter/material.dart";
 import 'package:flutter/rendering.dart';
 import 'package:http/http.dart' as http;
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:reboot/utils/BMICalculator.dart';
+import 'package:bmicalculator/utils/BMICalculator.dart';
 import '../components/ResuableWidget.dart';
 import '../components/CircularButtonJano.dart';
 import '../components/IconSection.dart';
 import '../config/Constants.dart';
-import 'dart:math';
 
 class HomeScreen extends StatefulWidget
 {
@@ -17,9 +16,7 @@ class HomeScreen extends StatefulWidget
 
 class HomeScreenState extends State<HomeScreen>
 {
-  var counter = 0;
-  var myIp = "";
-  var selectedGender = 'male';
+  String selectedGender = 'male';
   int height = 165;
   double weight = 71.0;
   int age = 25;
@@ -171,9 +168,6 @@ class HomeScreenState extends State<HomeScreen>
                 child: Center(child: Text('CALCULATE',style: TextStyle(fontSize: 25,fontWeight: FontWeight.w600,letterSpacing: 3,color: Colors.grey[100]),),),
               ),
             ),
-            
-            
-
           ],
         ),
       
